@@ -1,0 +1,202 @@
+/* Code by Saleh Ibne Omar 29 May 2018
+Find Saleh on: https://salehibneomar.github.io/first-portfolio/
+*/
+
+body{
+    margin: 0;
+    padding: 0;
+    background: rgba(223, 230, 233,1.0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.calculator-container{
+    width: 35%;
+    margin: 0 auto;
+    margin-top: 40px;
+    padding: 0;
+    background:rgba(52, 73, 94, 0.9);
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0 0 5px  rgba(0,0,0, 0.4);
+}
+
+.calculator{
+    width: 90%;
+    margin: 0 auto;
+    padding: 50px 0;
+    
+}
+
+.panel{
+    margin: 0 0 10px 0;
+    padding: 30px 0;
+    
+}
+
+h2{
+    padding: 20px  30px;
+    color: rgba(44, 62, 80,1.0);
+    font-size: 26pt;
+    font-family: 'Ubuntu', sans-serif !important;
+}
+
+.form-control:focus{
+    border-color: rgba(39, 60, 117,1.0);
+    box-shadow: 0 0px 2px rgba(39, 60, 117, 0.8) inset, 0 0 10px rgba(39, 60, 117, 0.7);
+    outline: 0 none;
+}
+.button-container{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.btn{
+    margin-top: 14px;
+    margin-bottom: 0px;
+    margin-left: 17px;
+    margin-right: 0px;
+    width: 28%;
+    padding: 14px 0;
+    font-size: 14pt;
+    font-family: 'Ubuntu', sans-serif !important;
+}
+
+.mb-0{
+    font-size: 10pt;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    color: rgba(44, 62, 80, 0.6);
+    font-family: 'Ubuntu', sans-serif !important;
+}
+
+
+/* Media Query Starts */
+
+@media all and (max-width: 1288px){
+    .btn{
+        font-size: 12pt;
+        margin-top: 12px;
+        margin-left: 14px;
+    }
+    h2{
+        font-size: 22pt;
+    }
+
+}
+
+@media all and (max-width: 1145px){
+
+    .calculator-container{
+        margin-top: 20px;
+    }
+    .btn{
+        font-size: 10pt;
+        margin-top: 10px;
+        margin-left: 12px;
+    }
+    h2{
+        font-size: 18pt;
+    }
+
+    input[type="number"]{
+        font-size: 10pt;
+        height: 60px;
+    }
+
+}
+
+@media all and (max-width: 1016px){
+    .calculator-container{
+        width: 44%;    
+    }
+}
+
+@media all and (max-width: 824px){
+    .calculator-container{
+        width: 50%;   
+    }
+}
+
+@media all and (max-width: 694px){
+    .calculator-container{
+        width: 55%;   
+    }
+}
+
+@media all and (max-width: 694px){
+    .calculator-container{
+        width: 62%;   
+    }
+
+    h2{     
+        font-size: 15pt; 
+    }
+    .btn{
+        font-size: 11pt;
+    }
+
+}
+
+@media all and (max-width: 576px){
+    .calculator-container{
+        width: 66%;   
+    }
+
+    h2{     
+        font-size: 16pt; 
+    }
+    .btn{
+        font-size: 11.5pt;
+    }
+
+}
+
+@media all and (max-width: 550px){
+
+    .btn{
+        font-size: 10pt;
+    }
+
+}
+
+@media all and (max-width: 522px){
+
+    .calculator-container{   
+        margin-top: 10px;
+        width: 86%;
+    }
+    .btn{  
+        width: 100%;
+        font-size: 12pt;
+        margin-left: 0px;
+        padding: 8px 0;
+    }
+
+}
+@media all and (max-width: 398px){
+
+    .calculator-container{   
+        margin-top: 8px;
+        width: 90%;
+    }
+
+}
+
+@media all and (max-width: 310px){
+
+    .calculator-container{   
+        margin-top: 6px;
+        width: 96%;
+    }
+
+}
+
+/* Media Query ends */
+
+/* Code by Saleh Ibne Omar 29 May 2018
+Find Saleh on: https://salehibneomar.github.io/first-portfolio/
+*/
+
+
+
